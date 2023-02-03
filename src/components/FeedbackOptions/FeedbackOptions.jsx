@@ -6,7 +6,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <div className={css.btnList}>
       {options.map((option, index) => (
         <button
-          key={index}
+          key={option}
           onClick={() => onLeaveFeedback(option)}
           className={css.btn}
         >
